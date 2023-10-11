@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+
+<body>
+
+    <div class="container">
+        <form class="form">
+            <label for="coefficient"> Enter your coefficient:</label>
+            <input type="number" id="coefficient" name="coefficient" class="coefficient" placeholder="Enter your coefficient here" required>
+            <br><br>
+
+            <label for="text">Your message:</label>
+            <textarea id="textToEncrypt" name="text" placeholder="Enter your text here" class="textStyle"></textarea>
+            <br><br>
+
+            <label for="result">Your result:</label>
+            <input type="text" class="cipher" id="cipher" name="result" readonly>
+            <br><br>
+
+            <button class="btn" id="submit-button" type="submit"><span class="text">Generate</span></button>
+        </form>
+
+
+
+    </div>
+
+
+
+
+    <script src="/script.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js'></script>
+
+</body>
+
+</html>
